@@ -12,3 +12,4 @@ interface AppContainer{
     val kontakRepository: MahasiswaRepository
 }
 
+class MahasiswaContainer: AppContainer{
