@@ -33,3 +33,4 @@ fun CostumeTopAppBar(
             )
         },
         modifier = modifier,
+        scrollBehavior = scrollBehavior,
