@@ -27,3 +27,5 @@ fun CostumeTopAppBar(
         title = { Text(title) },
         actions = {
             Icon(
+                imageVector = Icons.Default.Refresh,
+                contentDescription = "",
