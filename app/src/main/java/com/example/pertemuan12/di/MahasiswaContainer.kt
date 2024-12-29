@@ -19,3 +19,7 @@ class MahasiswaContainer: AppContainer{
         .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
         .baseUrl(baseUrl).build()
 
+    private val mahasiswaService: MahasiswaService by lazy {
+        retrofit.create(mahasiswaService::class.java)
+    }
+
