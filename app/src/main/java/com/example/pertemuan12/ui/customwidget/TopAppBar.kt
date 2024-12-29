@@ -18,3 +18,4 @@ import androidx.compose.ui.Modifier
 fun CostumeTopAppBar(
     title: String,
     canNavigateBack: Boolean,
+    modifier: Modifier = Modifier,
