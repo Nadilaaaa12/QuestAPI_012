@@ -37,3 +37,12 @@ fun CostumeTopAppBar(
         navigationIcon = {
             if (canNavigateBack){
                 IconButton (onClick = navigateUp) {
+                    Icon(
+                        imageVector = Icons.Filled.ArrowBack,
+                        contentDescription = null
+                    )
+                }
+            }
+        }
+    )
+}
