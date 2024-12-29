@@ -35,3 +35,5 @@ fun CostumeTopAppBar(
         modifier = modifier,
         scrollBehavior = scrollBehavior,
         navigationIcon = {
+            if (canNavigateBack){
+                IconButton (onClick = navigateUp) {
