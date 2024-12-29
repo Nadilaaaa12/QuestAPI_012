@@ -24,3 +24,4 @@ fun CostumeTopAppBar(
     onRefresh: () -> Unit = {},
 ){
     CenterAlignedTopAppBar(
+        title = { Text(title) },
