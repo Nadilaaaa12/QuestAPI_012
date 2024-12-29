@@ -21,3 +21,6 @@ fun CostumeTopAppBar(
     modifier: Modifier = Modifier,
     scrollBehavior: TopAppBarScrollBehavior? = null,
     navigateUp: () -> Unit = {},
+    onRefresh: () -> Unit = {},
+){
+    CenterAlignedTopAppBar(
