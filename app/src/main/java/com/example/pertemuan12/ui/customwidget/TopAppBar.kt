@@ -17,3 +17,4 @@ import androidx.compose.ui.Modifier
 @Composable
 fun CostumeTopAppBar(
     title: String,
+    canNavigateBack: Boolean,
